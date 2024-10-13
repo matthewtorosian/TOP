@@ -1,0 +1,26 @@
+
+#container{
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    justify-content: center;
+}
+
+.board{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 450px;
+    height: 450px;
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+}
+
+.cell{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 150px;
+    
+}
